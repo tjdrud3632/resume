@@ -109,10 +109,6 @@ table tbody td i { font-size: 1.1rem; transition-property: font-size; color: #7f
 table tbody td i:hover { font-size: 2rem; color: #7A33FF; cursor: pointer; }
 .progress-desc { padding-top: 2px; font-size: 0.6rem; font-weight: 500; letter-spacing: 0; color: #ffffff; }
 
-/* table - awards  */
-#awards img { border-radius: 50%;}
-td .profile { padding-top: 0.5rem; }
-.table > :not(caption) > * > * { padding: 1rem 0.5rem; }
 
 /* table - stacks  */
 #stacks td img { width: 3.125rem;}
@@ -122,37 +118,9 @@ td .profile { padding-top: 0.5rem; }
 #stacks table tbody td i { font-size: 0.7rem; letter-spacing: -2.4px; }
 #stacks .star-icon i { color:rgb(140, 233, 0); }
 
-/* salary   */
-#salary .card-header { height: 3rem; }
-#salary .card-header h4 { position: relative; top: 25%; }
-#salary hr { width: 70%; margin: 0.8rem auto; color: rgba(128, 128, 128, 0.711); }
-#salary .ribbon { width: 150px; height: 150px; overflow: hidden; position: absolute; }
-#salary .ribbon::before,
-#salary .ribbon::after { position: absolute; z-index: -1; content: ''; display: block; border: 5px solid #2f3e75; }
-#salary .ribbon span {
-  position: absolute;
-  display: block;
-  width: 225px;
-  padding: 15px 0;
-  background-color: #5a7dfa;
-  box-shadow: 0 5px 10px rgba(0,0,0,.1);
-  color: #fff;
-  font: 700 18px/1 'Lato', sans-serif;
-  text-shadow: 0 1px 1px rgba(0,0,0,.2);
-  text-transform: uppercase;
-  text-align: center;
-}
-#salary .ribbon-bottom-right { bottom: -10px; right: -10px; }
-#salary .ribbon-bottom-right::before,
-#salary .ribbon-bottom-right::after { border-bottom-color: transparent; border-right-color: transparent; }
-#salary .ribbon-bottom-right::before { bottom: 0; left: 0; }
-#salary .ribbon-bottom-right::after { top: 0; right: 0; }
-#salary .ribbon-bottom-right span { left: -25px; bottom: 30px; transform: rotate(-45deg); }
-#salary .check {  color: limegreen; }
-#salary .no { color: orangered; }
 
 /* Contact */
-.contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-left: 300px; width: 550px; height: 320px; border-radius: 10px; text-transform: uppercase; background: #ffffff; }
+.contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 50px; width: 550px; height: 320px; border-radius: 10px; text-transform: uppercase; background: #ffffff; }
 .contact-body h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: 0.094rem; margin-bottom: 0; }
 .contact-body small { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.219rem; color: #3f416567; }
 .contact-body img { width: 5.625rem; height: 5.625rem; border-radius: 50%; border: 0.188rem solid greenyellow; }
@@ -183,4 +151,3 @@ footer { flex-shrink: 0; }
 .btn:hover { background-position: right center; color: rgb(255, 255, 255); }
 .btn-3 { background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); }
 
-.backimg { height: 50rem; background-image: url(/assets/img/background.png); background-repeat: no-repeat; background-position: top; background-size: cover; }
