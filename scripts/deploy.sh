@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOSITORY=/home/ec2-user/app/step2
+REPOSITORY=/home/ec2-user/app/step1
 PROJECT_NAME=springboot-webservice
 
 echo $PROJECT_NAME
