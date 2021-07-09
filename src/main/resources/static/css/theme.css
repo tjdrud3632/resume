@@ -123,7 +123,7 @@ table tbody td i:hover { font-size: 2rem; color: #7A33FF; cursor: pointer; }
 .contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 50px; width: 550px; height: 320px; border-radius: 10px; text-transform: uppercase; background: #ffffff; }
 .contact-body h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: 0.094rem; margin-bottom: 0; }
 .contact-body small { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.219rem; color: #3f416567; }
-.contact-body img { width: 5.625rem; height: 5.625rem; border-radius: 50%; border: 0.16rem solid plum; }
+.contact-body img { width: 5.625rem; height: 5.625rem; border-radius: 50%; border: 0.15rem solid #dda0dd; }
 .contact-body ul { padding-left: 0.25rem; margin-bottom: 0.25rem; font-weight: 300; }
 .contact-body ul li { font-size: 0.75rem; letter-spacing: 0; }
 .contact-body ul li strong { margin-left: 0.25rem; }
