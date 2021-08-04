@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.ws:spring-ws-core:3.0.10.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-core/3.0.10.RELEASE/59a17a6985960e2c57bad6b474697acd3cc4bcf4/spring-ws-core-3.0.10.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.ws/spring-ws-core/3.0.10.RELEASE/474b3b8d3f398f42b0757c2de81bca593272c212/spring-ws-core-3.0.10.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
